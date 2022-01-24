@@ -1,0 +1,261 @@
+{
+    "branch_id": "6434cc97-3ebf-47ce-b02f-e9e06939965d",
+    "name": "Untitled",
+    "created": "2022-01-21T04:38:31.232Z",
+    "settings": {
+        "physics": {
+            "gravity": [
+                0,
+                -9.8,
+                0
+            ]
+        },
+        "render": {
+            "fog_end": 1000,
+            "tonemapping": 0,
+            "skybox": 65953656,
+            "fog_density": 0.01,
+            "gamma_correction": 1,
+            "exposure": 1,
+            "fog_start": 1,
+            "global_ambient": [
+                0.2,
+                0.2,
+                0.2
+            ],
+            "skyboxIntensity": 1,
+            "fog_color": [
+                0,
+                0,
+                0
+            ],
+            "lightmapMode": 1,
+            "fog": "none",
+            "lightmapMaxResolution": 2048,
+            "skyboxMip": 0,
+            "lightmapSizeMultiplier": 16,
+            "skyboxRotation": [
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "entities": {
+        "fc2e08b4-7a73-11ec-a1ee-b67686b69833": {
+            "position": [
+                4,
+                3.5,
+                4
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "name": "Camera",
+            "parent": "fc2e072e-7a73-11ec-a1ee-b67686b69833",
+            "resource_id": "fc2e08b4-7a73-11ec-a1ee-b67686b69833",
+            "components": {
+                "camera": {
+                    "projection": 0,
+                    "farClip": 1000,
+                    "clearColorBuffer": true,
+                    "layers": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "priority": 0,
+                    "fov": 45,
+                    "clearDepthBuffer": true,
+                    "frustumCulling": true,
+                    "clearColor": [
+                        0.118,
+                        0.118,
+                        0.118,
+                        1
+                    ],
+                    "enabled": true,
+                    "orthoHeight": 4,
+                    "nearClip": 0.1,
+                    "rect": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "rotation": [
+                -30,
+                45,
+                0
+            ],
+            "tags": [],
+            "enabled": true,
+            "children": []
+        },
+        "fc2e072e-7a73-11ec-a1ee-b67686b69833": {
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "name": "Root",
+            "parent": null,
+            "resource_id": "fc2e072e-7a73-11ec-a1ee-b67686b69833",
+            "components": {},
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "tags": [],
+            "enabled": true,
+            "children": [
+                "fc2e08b4-7a73-11ec-a1ee-b67686b69833",
+                "fc2e0a9e-7a73-11ec-a1ee-b67686b69833",
+                "fc2e0b7a-7a73-11ec-a1ee-b67686b69833",
+                "71bd84f1-7ae4-4ac8-af4d-ab88fd945be8"
+            ]
+        },
+        "fc2e0a9e-7a73-11ec-a1ee-b67686b69833": {
+            "position": [
+                0,
+                0.5,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "name": "Box",
+            "parent": "fc2e072e-7a73-11ec-a1ee-b67686b69833",
+            "resource_id": "fc2e0a9e-7a73-11ec-a1ee-b67686b69833",
+            "components": {
+                "render": {
+                    "isStatic": false,
+                    "castShadows": true,
+                    "castShadowsLightmap": true,
+                    "rootBone": null,
+                    "lightmapped": false,
+                    "batchGroupId": null,
+                    "layers": [
+                        0
+                    ],
+                    "receiveShadows": true,
+                    "enabled": true,
+                    "asset": null,
+                    "materialAssets": [
+                        null
+                    ],
+                    "type": "box",
+                    "lightmapSizeMultiplier": 1
+                }
+            },
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "tags": [],
+            "enabled": true,
+            "children": []
+        },
+        "fc2e0b7a-7a73-11ec-a1ee-b67686b69833": {
+            "name": "Plane",
+            "tags": [],
+            "enabled": true,
+            "resource_id": "fc2e0b7a-7a73-11ec-a1ee-b67686b69833",
+            "parent": "fc2e072e-7a73-11ec-a1ee-b67686b69833",
+            "children": [],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                8,
+                1,
+                8
+            ],
+            "components": {
+                "render": {
+                    "enabled": true,
+                    "type": "plane",
+                    "asset": null,
+                    "materialAssets": [
+                        null
+                    ],
+                    "layers": [
+                        0
+                    ],
+                    "batchGroupId": null,
+                    "castShadows": true,
+                    "castShadowsLightmap": true,
+                    "receiveShadows": true,
+                    "lightmapped": false,
+                    "lightmapSizeMultiplier": 1,
+                    "castShadowsLightMap": true,
+                    "lightMapped": false,
+                    "lightMapSizeMultiplier": 1,
+                    "isStatic": false,
+                    "rootBone": null
+                }
+            }
+        },
+        "71bd84f1-7ae4-4ac8-af4d-ab88fd945be8": {
+            "name": "script",
+            "tags": [],
+            "enabled": true,
+            "resource_id": "71bd84f1-7ae4-4ac8-af4d-ab88fd945be8",
+            "parent": "fc2e072e-7a73-11ec-a1ee-b67686b69833",
+            "children": [],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "components": {
+                "script": {
+                    "enabled": true,
+                    "order": [
+                        "init"
+                    ],
+                    "scripts": {
+                        "init": {
+                            "enabled": true,
+                            "attributes": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "checkpoint_id": "16d3614e-68a0-4351-9622-39c29246b1ee",
+    "id": 1316554
+}

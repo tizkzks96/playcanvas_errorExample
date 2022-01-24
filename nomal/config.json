@@ -1,0 +1,396 @@
+{
+    "application_properties": {
+        "i18nAssets": [],
+        "useTouch": true,
+        "layerOrder": [
+            {
+                "layer": 0,
+                "enabled": true,
+                "transparent": false
+            },
+            {
+                "layer": 1,
+                "enabled": true,
+                "transparent": false
+            },
+            {
+                "layer": 2,
+                "enabled": true,
+                "transparent": false
+            },
+            {
+                "layer": 0,
+                "enabled": true,
+                "transparent": true
+            },
+            {
+                "layer": 3,
+                "enabled": true,
+                "transparent": false
+            },
+            {
+                "layer": 3,
+                "enabled": true,
+                "transparent": true
+            },
+            {
+                "layer": 4,
+                "enabled": true,
+                "transparent": true
+            }
+        ],
+        "externalScripts": [],
+        "height": 720,
+        "vr": false,
+        "useModelV2": false,
+        "antiAlias": true,
+        "layers": {
+            "0": {
+                "transparentSortMode": 3,
+                "opaqueSortMode": 2,
+                "name": "World"
+            },
+            "1": {
+                "transparentSortMode": 3,
+                "opaqueSortMode": 2,
+                "name": "Depth"
+            },
+            "2": {
+                "transparentSortMode": 3,
+                "opaqueSortMode": 0,
+                "name": "Skybox"
+            },
+            "3": {
+                "transparentSortMode": 3,
+                "opaqueSortMode": 0,
+                "name": "Immediate"
+            },
+            "4": {
+                "transparentSortMode": 1,
+                "opaqueSortMode": 1,
+                "name": "UI"
+            }
+        },
+        "width": 1280,
+        "useDevicePixelRatio": false,
+        "useKeyboard": true,
+        "maxAssetRetries": 5,
+        "powerPreference": "default",
+        "batchGroups": [],
+        "preserveDrawingBuffer": false,
+        "useLegacyScripts": false,
+        "fillMode": "FILL_WINDOW",
+        "scripts": [
+            65955604,
+            65955605
+        ],
+        "useMouse": true,
+        "use3dPhysics": false,
+        "transparentCanvas": false,
+        "resolutionMode": "AUTO",
+        "loadingScreenScript": null,
+        "preferWebGl2": true,
+        "useGamepads": false,
+        "libraries": []
+    },
+    "scenes": [
+        {
+            "name": "Untitled",
+            "url": "1316554.json"
+        }
+    ],
+    "assets": {
+        "65953656": {
+            "branch_id": "6434cc97-3ebf-47ce-b02f-e9e06939965d",
+            "tags": [],
+            "name": "New Cubemap",
+            "revision": 1,
+            "preload": true,
+            "exclude": false,
+            "meta": null,
+            "data": {
+                "name": "New Cubemap",
+                "textures": [
+                    65955322,
+                    65955322,
+                    65955320,
+                    65955321,
+                    65955322,
+                    65955322
+                ],
+                "minFilter": 5,
+                "magFilter": 1,
+                "anisotropy": 1,
+                "rgbm": false
+            },
+            "type": "cubemap",
+            "file": {
+                "filename": "New Cubemap.dds",
+                "size": 524456,
+                "hash": "d6cba80e91cc0ffcd887a55fcdf2ce87",
+                "url": "files/assets/65953656/1/New%20Cubemap.dds"
+            },
+            "region": "eu-west-1",
+            "i18n": {},
+            "id": "65953656"
+        },
+        "65953658": {
+            "branch_id": "6434cc97-3ebf-47ce-b02f-e9e06939965d",
+            "tags": [],
+            "name": "WhiteStudio_nx_test.png",
+            "revision": 1,
+            "preload": true,
+            "exclude": false,
+            "meta": {
+                "compress": {
+                    "alpha": false,
+                    "normals": false,
+                    "dxt": false,
+                    "pvr": false,
+                    "pvrBpp": 4,
+                    "etc1": false,
+                    "etc2": false,
+                    "basis": false,
+                    "quality": 128,
+                    "compressionMode": "etc"
+                },
+                "format": "png",
+                "type": "Bilevel",
+                "width": 256,
+                "height": 256,
+                "alpha": true,
+                "depth": 8,
+                "srgb": true,
+                "interlaced": false
+            },
+            "data": {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "type": "texture",
+            "file": {
+                "filename": "WhiteStudio_nx_test.png",
+                "size": 19380,
+                "hash": "34ceffc7d07b08add6ca264989439c2c",
+                "variants": {},
+                "url": "files/assets/65953658/1/WhiteStudio_nx_test.png"
+            },
+            "region": "eu-west-1",
+            "i18n": {},
+            "id": "65953658"
+        },
+        "65955320": {
+            "branch_id": "6434cc97-3ebf-47ce-b02f-e9e06939965d",
+            "tags": [],
+            "name": "WhiteStudio_py.png",
+            "revision": 1,
+            "preload": true,
+            "exclude": false,
+            "meta": {
+                "compress": {
+                    "alpha": false,
+                    "normals": false,
+                    "dxt": false,
+                    "pvr": false,
+                    "pvrBpp": 4,
+                    "etc1": false,
+                    "etc2": false,
+                    "basis": false,
+                    "quality": 128,
+                    "compressionMode": "etc"
+                },
+                "format": "png",
+                "type": "Bilevel",
+                "width": 256,
+                "height": 256,
+                "alpha": true,
+                "depth": 8,
+                "srgb": true,
+                "interlaced": false
+            },
+            "data": {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "type": "texture",
+            "file": {
+                "filename": "WhiteStudio_py.png",
+                "size": 1684,
+                "hash": "3b4a6d1a6580b4043464460fcbe8ec23",
+                "variants": {},
+                "url": "files/assets/65955320/1/WhiteStudio_py.png"
+            },
+            "region": "eu-west-1",
+            "i18n": {},
+            "id": "65955320"
+        },
+        "65955321": {
+            "branch_id": "6434cc97-3ebf-47ce-b02f-e9e06939965d",
+            "tags": [],
+            "name": "WhiteStudio_ny.png",
+            "revision": 1,
+            "preload": true,
+            "exclude": false,
+            "meta": {
+                "compress": {
+                    "alpha": false,
+                    "normals": false,
+                    "dxt": false,
+                    "pvr": false,
+                    "pvrBpp": 4,
+                    "etc1": false,
+                    "etc2": false,
+                    "basis": false,
+                    "quality": 128,
+                    "compressionMode": "etc"
+                },
+                "format": "png",
+                "type": "Bilevel",
+                "width": 256,
+                "height": 256,
+                "alpha": true,
+                "depth": 8,
+                "srgb": true,
+                "interlaced": false
+            },
+            "data": {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "type": "texture",
+            "file": {
+                "filename": "WhiteStudio_ny.png",
+                "size": 20275,
+                "hash": "a6e0acafd5291e5ecf294f25ed7343a0",
+                "variants": {},
+                "url": "files/assets/65955321/1/WhiteStudio_ny.png"
+            },
+            "region": "eu-west-1",
+            "i18n": {},
+            "id": "65955321"
+        },
+        "65955322": {
+            "branch_id": "6434cc97-3ebf-47ce-b02f-e9e06939965d",
+            "tags": [],
+            "name": "WhiteStudio_nx.png",
+            "revision": 1,
+            "preload": true,
+            "exclude": false,
+            "meta": {
+                "compress": {
+                    "alpha": false,
+                    "normals": false,
+                    "dxt": false,
+                    "pvr": false,
+                    "pvrBpp": 4,
+                    "etc1": false,
+                    "etc2": false,
+                    "basis": false,
+                    "quality": 128,
+                    "compressionMode": "etc"
+                },
+                "format": "png",
+                "type": "Bilevel",
+                "width": 256,
+                "height": 256,
+                "alpha": true,
+                "depth": 8,
+                "srgb": true,
+                "interlaced": false
+            },
+            "data": {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "type": "texture",
+            "file": {
+                "filename": "WhiteStudio_nx.png",
+                "size": 19365,
+                "hash": "33ec3132d1a5bc72a26591ac25092710",
+                "variants": {},
+                "url": "files/assets/65955322/1/WhiteStudio_nx.png"
+            },
+            "region": "eu-west-1",
+            "i18n": {},
+            "id": "65955322"
+        },
+        "65955604": {
+            "branch_id": "6434cc97-3ebf-47ce-b02f-e9e06939965d",
+            "tags": [],
+            "name": "init.js",
+            "revision": 1,
+            "preload": true,
+            "exclude": false,
+            "meta": null,
+            "data": {
+                "scripts": {
+                    "init": {
+                        "attributesOrder": [],
+                        "attributes": {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 982,
+                "hash": "dce8af67a35cb74be8740d5d11372904",
+                "url": "__game-scripts.js"
+            },
+            "region": "eu-west-1",
+            "i18n": {},
+            "id": "65955604"
+        },
+        "65955605": {
+            "branch_id": "6434cc97-3ebf-47ce-b02f-e9e06939965d",
+            "tags": [],
+            "name": "init.js",
+            "revision": 1,
+            "preload": true,
+            "exclude": false,
+            "meta": null,
+            "data": {
+                "scripts": {
+                    "init": {
+                        "attributesOrder": [],
+                        "attributes": {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 982,
+                "hash": "dce8af67a35cb74be8740d5d11372904",
+                "url": "__game-scripts.js"
+            },
+            "region": "eu-west-1",
+            "i18n": {},
+            "id": "65955605"
+        }
+    }
+}

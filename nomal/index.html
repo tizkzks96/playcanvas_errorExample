@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <style>
+        .button-reload {
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            z-index: 100;
+        }
+    </style>
+    <title>test</title>
+    <script src="playcanvas-stable.js"></script>
+    <script src="__settings__.js"></script>
+</head>
+<body>
+    <!-- <script src="__start__.js"></script> -->
+    <!-- <script src="__loading__.js"></script> -->
+    <button class="button-reload" onclick="reload()">Reload</button>
+    <script type="module">
+        import start from "./__start__.js";
+        import load from "./__loading__.js";
+        start();
+        load();
+        window.reload = function() {
+            //pc.Application.getApplication().destroy();
+            // pc.Application.setApplication(null);
+            //document.getElementById('application-canvas').remove();
+            start();
+            // var app = pc.Application.getApplication();
+            // app.on('start', function(){
+            //     console.log('app restarted');
+            // });
+            // load();
+        }
+    </script>
+</body>
+</html>
